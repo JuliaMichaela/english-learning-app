@@ -4,7 +4,7 @@ import data from "..//../assets/data.json"
 
 export default function WordCardMap() {
     return (
-        <div className="card" id="game">
+        <div className="card-container" id="game">
             {data.map((item) =>
                 <WordCard
                     isEdited={false}

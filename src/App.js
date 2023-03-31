@@ -10,10 +10,7 @@ function App() {
     <div className="App">
       <Header/>
       <Table/>
-      <div className="card-container">
       <WordCardMap/>
-      </div>
-      
       <Footer/>
     </div>
   );
