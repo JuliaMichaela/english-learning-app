@@ -1,6 +1,6 @@
 import './Table.css'
 import data from '../../assets/data.json'
-import TableRow from "./TableRow"
+import TableRow from "../TableRow/TableRow"
 
 function Table() {
     return (
